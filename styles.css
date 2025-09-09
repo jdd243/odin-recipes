@@ -1,0 +1,38 @@
+body {
+    background-color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 16px;
+}
+
+
+div {
+    background-color: lightblue;
+    font-size: 16px;
+    margin: 8px auto;
+    padding: 16px 16px;
+    box-sizing: border-box;
+    display: block;
+    image-resolution: 400px;
+}
+
+h1, h2, h3, h4, h5 {
+    background-color: lightblue;
+    font-size: 20px;
+    margin: 12px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.recipe img {
+    max-width: 400px;
+    height: auto;
+    align-items: center;
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
+
+div:last-child {
+    min-height: 100vh;
+    flex: 1;
+}
